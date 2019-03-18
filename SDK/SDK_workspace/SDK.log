@@ -1,0 +1,16 @@
+11:20:33.758 INFO  - Processing command line option -hwspec D:\RA136-2016\lab3\SDK\SDK_Export\hw\system.xml. 
+11:31:38.598 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+11:32:44.604 INFO  - FPGA configured successfully with bitstream "D:/RA136-2016/lab3/SDK/SDK_workspace/lab3_hw_platform/download.bit" 
+11:35:18.841 INFO  - FPGA configured successfully with bitstream "D:/RA136-2016/lab3/SDK/SDK_workspace/lab3_hw_platform/download.bit" 
+11:42:22.084 INFO  - FPGA configured successfully with bitstream "D:/RA136-2016/lab3/SDK/SDK_workspace/lab3_hw_platform/download.bit" 
+11:46:26.627 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: MicroBlaze is under RESET. Check if the Reset input to MicroBlaze and its Bus Interfaces are connected properly
+    UNABLE to STOP MicroBlaze
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+11:46:38.648 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

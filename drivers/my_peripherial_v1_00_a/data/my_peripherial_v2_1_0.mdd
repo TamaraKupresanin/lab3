@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          D:\RA136-2016\lab3/drivers/my_peripherial_v1_00_a/data/my_peripherial_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Mon Mar 18 11:59:01 2019 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER my_peripherial
+
+  OPTION supported_peripherals = (my_peripherial);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER
